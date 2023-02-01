@@ -1999,10 +1999,7 @@ void delete_node(struct tree *root)
 
 	if(temp->right == NULL && temp->left == NULL)
 	{
-		//if(q == temp)
-		//{
-		//	temp = NULL;
-		//}
+		
 
 		if(q->left == temp)
 		{
@@ -3192,9 +3189,7 @@ int main()
             case 4 : my_deque();break;
             default : cout<<endl<<"\t\t\t\t!!!! WRONG CHOICE ENTERERD"<<endl;
         }
-        //getchar();
-        //cout<<endl<<endl<<"\t\t\t\tPRESS ANY KEY TO CONTINUE";
-        //getchar();
+        
         system("cls");
     }
 	system("cls");
